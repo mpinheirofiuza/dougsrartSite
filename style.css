@@ -1,24 +1,31 @@
-#vidContain{
-	height: auto;
-	width: auto;
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
-#vidBg{
-	object-fit: cover;
-	width: 100%;
-	height: 100%;
-	position: fixed;
+#header{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+#videoBg{
+	position: absolute;
 	top: 0;
 	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	object-fit: cover;
 }
-#contentVidBg{
-	position: fixed;
-}
-
 #nave{
-	position: static;
-	width: 40%;
-	display: flex;
-	display: -webkit-flex;
-	justify-content: center;
-	align-items: center;
+	width: 20%;
+}
+#mainContent{
+	border: solid 5px white;
+}
+#footer{
+	border: solid 5px pink;
+}
+#header ul{
+	list-style: none;
 }
