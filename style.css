@@ -1,0 +1,24 @@
+#vidContain{
+	height: auto;
+	width: auto;
+}
+#vidBg{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+#contentVidBg{
+	position: fixed;
+}
+
+#nave{
+	position: static;
+	width: 40%;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	align-items: center;
+}
